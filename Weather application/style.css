@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    height: 95vh;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* div{
+    width:500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0,0,0,0.5);
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    box-shadow: 2px 2px 20px #96915f;
+    border-radius: 10px;
+    } */
+
+    .container {
+        margin-top: 50px;
+      }
+      
+      h1 {
+        text-align: center;
+      }
+      
+      .form-group {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+      
+      #weatherInfo {
+        text-align: center;
+        font-size: 24px;
+      }
+      
+      p{
+          background: rgb(14, 194, 226);
+          border-radius: 10px;
+          display:block;
+          padding: 0;
+
+          
+      
+      }
+    h1{
+        font-size: 30px;
+        font-weight:600 ;
+        color: #e4b416;
+
+    }
+
+    .text{
+        text-align: left;
+        margin-left: 100px;
+        color: #fff;
+    }
+    .logo{
+        /* margin-top: 20px; */
+    }
+
+    
+.container .input-div{
+    display: grid;
+    gap: 1rem;
+    
+}
+
+.container .btn{
+    color: #f3cd51;
+    font-weight: 700;
+}
+
+
+.heading{
+    margin-bottom: 50px;
+}
+
+.copy-div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+}
+.copyright{
+    color:#e4b416;
+    font-size: 16px;
+    background: rgb(37, 37, 37);
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    border-radius: 10px;
+    
+    
+}
